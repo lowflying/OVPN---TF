@@ -20,10 +20,3 @@ Terraform scripts to create a quick OpenVPN server in the cloud (AWS, Azure, Goo
 10. cd to the cloud provider directory and perform a `terraform apply`.
 11. The new `.ovpn` file will be copied from new instance into `cert_details`. Open with your OpenVPN client.
 
-## To Do
-
-- (AWS/GCP) Flag for "only allow this IP to connect" to either SSH and/or OpenVPN.
-- Finish `fail2ban` configuration.
-- Better use of variables and file hierarchy to allow for a single variables file and one place to execute the `apply` command.
-- Enable this repository to be used as a module.
-- Fix Azure implementation to use API/metadata to retrieve external IP.
